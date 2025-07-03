@@ -1,7 +1,11 @@
-export default function Home() {
+import React from "react";
+import { Frame } from "@/app/Global.styled";
+
+const Navbar = () => {
   return (
-    <div>
-        <h3>Navbar</h3>
-    </div>
-  );
+    <Frame></Frame>
+  )
 }
+
+export default Navbar
+

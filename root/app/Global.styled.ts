@@ -1,7 +1,7 @@
-import styled from "@emotion/styled";
+import styled from "styled-components";
 
 export const Frame = styled.div`
   width : 75%;
   margin : 0 auto;
-  color : '#ccc';
+  background-color : blue;
 `
