@@ -1,5 +1,20 @@
+/* styles/globals.css */
+@font-face {
+  font-family: 'Now';
+  src: url('/Fonts/Now-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Now';
+  src: url('/Fonts/Now-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
 * {
-  font-family: "sans-serif", inter;
+  font-family: 'Now', sans-serif;
   text-decoration: none;
   list-style-type: none;
   box-sizing: border-box;
